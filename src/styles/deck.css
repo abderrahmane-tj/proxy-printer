@@ -1,7 +1,7 @@
 :root {
   --card-width: 63mm;
   --card-height: 88mm;
-  --gap-size: 1mm;
+  --gap-size: 0px;
 }
 
 @media print {
@@ -24,6 +24,24 @@ body {
 }
 
 .page {
+  padding-top: 10mm;
+  padding-bottom: 10mm;
+  background: repeating-linear-gradient(
+    to right,
+
+    white,
+    white var(--card-width) - 0.5px,
+
+    red calc(var(--card-width) - 0.5px),
+    red calc(var(--card-width) + 0.5px),
+
+    white calc(var(--card-width) + 0.5px),
+    white calc(var(--card-width) + 0.5px + var(--card-width) - 0.5px),
+
+    red calc(var(--card-width) + 0.5px + var(--card-width) - 0.5px),
+    red calc(var(--card-width) + 0.5px + var(--card-width) + 0.5px)
+  );
+  background-size: 100% 20px;
   page-break-inside: avoid;
   display: inline-grid;
   grid-template-columns: repeat(3, var(--card-width));
