@@ -47,6 +47,10 @@ body {
   margin-left: 10mm;
 }
 
+.extraMargin .page {
+  margin-left: 12mm;
+}
+
 .rtl {
   direction: rtl;
 }
