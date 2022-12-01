@@ -30,13 +30,13 @@ body {
     to right,
 
     white,
-    white calc(var(--card-width) - 0.5px),
-    red calc(var(--card-width) - 0.5px),
-    red calc(var(--card-width) + 0.5px),
-    white calc(var(--card-width) + 0.5px),
-    white calc(var(--card-width) + var(--card-width) - 0.5px),
-    red calc(var(--card-width) + var(--card-width) - 0.5px),
-    red calc(var(--card-width) + var(--card-width) + 0.5px)
+    white calc(var(--card-width) - (1mm / 2)),
+    red calc(var(--card-width) - (1mm / 2)),
+    red calc(var(--card-width) + (1mm / 2)),
+    white calc(var(--card-width) + (1mm / 2)),
+    white calc(var(--card-width) + var(--card-width) - (1mm / 2)),
+    red calc(var(--card-width) + var(--card-width) - (1mm / 2)),
+    red calc(var(--card-width) + var(--card-width) + (1mm / 2))
   );
   page-break-inside: avoid;
   display: inline-grid;
