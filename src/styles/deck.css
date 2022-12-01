@@ -1,7 +1,7 @@
 :root {
   --card-width: 63mm;
   --card-height: 88mm;
-  --gap-size: 0px;
+  --gap-size: 0;
 }
 
 @media print {
@@ -30,18 +30,14 @@ body {
     to right,
 
     white,
-    white var(--card-width) - 0.5px,
-
+    white calc(var(--card-width) - 0.5px),
     red calc(var(--card-width) - 0.5px),
     red calc(var(--card-width) + 0.5px),
-
     white calc(var(--card-width) + 0.5px),
-    white calc(var(--card-width) + 0.5px + var(--card-width) - 0.5px),
-
-    red calc(var(--card-width) + 0.5px + var(--card-width) - 0.5px),
-    red calc(var(--card-width) + 0.5px + var(--card-width) + 0.5px)
+    white calc(var(--card-width) + var(--card-width) - 0.5px),
+    red calc(var(--card-width) + var(--card-width) - 0.5px),
+    red calc(var(--card-width) + var(--card-width) + 0.5px)
   );
-  background-size: 100% 20px;
   page-break-inside: avoid;
   display: inline-grid;
   grid-template-columns: repeat(3, var(--card-width));
@@ -58,5 +54,7 @@ body {
 img {
   height: var(--card-height);
   width: var(--card-width);
-  border-radius: 12px;
+}
+img.radius {
+  border-radius: 12pt;
 }
