@@ -1,0 +1,104 @@
+1 Alakazam BS 1
+1 Blastoise BS 2
+1 Chansey BS 3
+1 Charizard BS 4
+1 Clefairy BS 5
+1 Gyarados BS 6
+1 Hitmonchan BS 7
+1 Machamp BS 8
+1 Magneton BS 9
+1 Mewtwo BS 10
+1 Nidoking BS 11
+1 Ninetales BS 12
+1 Poliwrath BS 13
+1 Raichu BS 14
+1 Venusaur BS 15
+1 Zapdos BS 16
+1 Beedrill BS 17
+1 Dragonair BS 18
+1 Dugtrio BS 19
+1 Electabuzz BS 20
+1 Electrode BS 21
+1 Pidgeotto BS 22
+1 Arcanine BS 23
+1 Charmeleon BS 24
+1 Dewgong BS 25
+1 Dratini BS 26
+1 Farfetch'd BS 27
+1 Growlithe BS 28
+1 Haunter BS 29
+1 Ivysaur BS 30
+1 Jynx BS 31
+1 Kadabra BS 32
+1 Kakuna BS 33
+1 Machoke BS 34
+1 Magikarp BS 35
+1 Magmar BS 36
+1 Nidorino BS 37
+1 Poliwhirl BS 38
+1 Porygon BS 39
+1 Raticate BS 40
+1 Seel BS 41
+1 Wartortle BS 42
+1 Abra BS 43
+1 Bulbasaur BS 44
+1 Caterpie BS 45
+1 Charmander BS 46
+1 Diglett BS 47
+1 Doduo BS 48
+1 Drowzee BS 49
+1 Gastly BS 50
+1 Koffing BS 51
+1 Machop BS 52
+1 Magnemite BS 53
+1 Metapod BS 54
+1 Nidoran♂ BS 55
+1 Onix BS 56
+1 Pidgey BS 57
+1 Pikachu BS 58
+1 Poliwag BS 59
+1 Ponyta BS 60
+1 Rattata BS 61
+1 Sandshrew BS 62
+1 Squirtle BS 63
+1 Starmie BS 64
+1 Staryu BS 65
+1 Tangela BS 66
+1 Voltorb BS 67
+1 Vulpix BS 68
+1 Weedle BS 69
+
+1 Clefairy Doll BS 70
+1 Computer Search BS 71
+1 Devolution Spray BS 72
+1 Imposter Professor Oak BS 73
+1 Item Finder BS 74
+1 Lass BS 75
+1 Pokémon Breeder BS 76
+1 Pokémon Trader BS 77
+1 Scoop Up BS 78
+1 Super Energy Removal BS 79
+1 Defender BS 80
+1 Energy Retrieval BS 81
+1 Full Heal BS 82
+1 Maintenance BS 83
+1 PlusPower BS 84
+1 Pokémon Center BS 85
+1 Pokémon Flute BS 86
+1 Pokédex BS 87
+1 Professor Oak BS 88
+1 Revive BS 89
+1 Super Potion BS 90
+1 Bill BS 91
+1 Energy Removal BS 92
+1 Gust of Wind BS 93
+1 Potion BS 94
+1 Switch BS 95
+
+1 Double Colorless Energy BS 96
+1 Fighting Energy BS 97
+1 Fire Energy BS 98
+1 Grass Energy BS 99
+1 Lightning Energy BS 100
+1 Psychic Energy BS 101
+1 Water Energy BS 102

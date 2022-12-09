@@ -1,13 +1,13 @@
 :root {
   --card-width: 63mm;
   --card-height: 88mm;
-  --gap-size: 0;
-}
-
-@media print {
-  * {
-    page-break-inside: avoid;
-  }
+  --card-cutting-guide: 1px;
+  --gap-size: 2px;
+  --card-border: #d1b205;
+  --cardback-border: #192653;
+  --page-left-margin: 10mm;
+  --cardback-margin-offset: 2mm;
+  --cardback-group-extra-background: 10px;
 }
 
 * {
@@ -24,31 +24,20 @@ body {
 }
 
 .page {
-  padding-top: 10mm;
-  padding-bottom: 10mm;
-  background: repeating-linear-gradient(
-    to right,
-
-    white,
-    white calc(var(--card-width) - (1mm / 2)),
-    red calc(var(--card-width) - (1mm / 2)),
-    red calc(var(--card-width) + (1mm / 2)),
-    white calc(var(--card-width) + (1mm / 2)),
-    white calc(var(--card-width) + var(--card-width) - (1mm / 2)),
-    red calc(var(--card-width) + var(--card-width) - (1mm / 2)),
-    red calc(var(--card-width) + var(--card-width) + (1mm / 2))
-  );
-  page-break-inside: avoid;
+  margin-top: 10mm;
+  margin-left: var(--page-left-margin);
   display: inline-grid;
   grid-template-columns: repeat(3, var(--card-width));
   flex-wrap: wrap;
   gap: var(--gap-size);
-  margin-top: var(--gap-size);
-  margin-left: 10mm;
 }
 
-.extraMargin .page {
-  margin-left: 12mm;
+.card-back .page {
+  margin-left: calc(
+    var(--page-left-margin) + var(--cardback-margin-offset) - calc(2 * var(--gap-size))
+  );
+  /*box-shadow: 0 0 0 var(--cardback-group-extra-background) var(--cardback-border);*/
+  background: var(--cardback-border);
 }
 
 .rtl {
@@ -58,7 +47,12 @@ body {
 img {
   height: var(--card-height);
   width: var(--card-width);
+  box-shadow: 0 0 0 var(--card-cutting-guide) var(--card-border);
 }
 img.radius {
-  border-radius: 12pt;
+  border-radius: 2mm;
+}
+
+.card-back img {
+  box-shadow: none;
 }
